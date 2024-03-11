@@ -1,0 +1,134 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #333;
+    padding: 0;
+    min-height: 100vh; /* Asegura que el cuerpo ocupa al menos el 100% de la altura de la ventana */
+    display: flex;
+    flex-direction: column;
+}
+  
+header {
+    background-color: #333; /* Color de fondo del encabezado */
+    padding: 15px; /* Espaciado interno del encabezado */
+    margin: 0%;
+    text-align: center;
+    color: #fff;
+}
+  
+nav {
+    text-align: center; /* Alinea el contenido del nav al centro */
+    color: white;
+}
+  
+header ul {
+    list-style: none; /* Quita los estilos de lista (viñetas) */
+    margin: 0;
+    padding: 0;
+}
+  
+header li {
+    display: inline-block; /* Coloca los elementos de la lista en línea */
+    margin-right: 20px; /* Espaciado entre elementos de la lista */
+}
+  
+a {
+    text-decoration: none; /* Quita el subrayado predeterminado de los enlaces */
+    color: white; /* Color del texto de los enlaces */
+    font-weight: bold; /* Estilo de fuente en negrita */
+}
+
+header li:hover {
+    transform: scale(1.1); /* Aumenta ligeramente el tamaño al pasar el ratón sobre los enlaces */
+}
+
+header img {
+    width: 50px;
+    position: relative; /* Habilita la posición relativa en la imagen */
+    top: 10px; /* Ajusta la posición hacia abajo (puedes cambiar el valor según sea necesario) */
+    left: 10px; /* Ajusta la posición hacia la derecha (puedes cambiar el valor según sea necesario) */
+}
+
+main {
+    flex: 1; /* Hace que el contenido principal ocupe todo el espacio restante */
+    background-image: url('../imagenes/libreriaFondo.webp'); /* Reemplaza con la ruta de tu imagen */
+    background-size: cover; /* Ajusta la imagen para cubrir todo el contenedor */
+    background-position: center; /* Centra la imagen en el contenedor */
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 100%;
+    width: 97%;
+}
+
+p {
+    line-height: 1.6;
+}
+
+.centro{
+    background-color:antiquewhite;
+    margin: 0 auto;
+    width: 80%;
+    padding: 10px;
+    border-radius: 10px;
+    height: auto;
+}
+
+.centro figure {
+    display: inline-block; /* Para que las figuras estén en línea */
+    margin: 0 10px; /* Espaciado entre las figuras */
+}
+
+.centro img {
+    max-width: 100%;
+    width: 260px;
+    margin: 10px;
+    display: inline-block; /* Para que las imágenes estén en línea */
+}
+
+.centro figcaption {
+    margin-top: 5px;
+    color: #666;
+    font-style: italic;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: none;
+    height: 90px;
+}
+
+td {
+    padding: 8px;
+    text-align: center;
+}
+footer{
+    margin: 0%;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 98%;
+    height: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #333;
+    color: #fff;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer img{
+    height: 50px;
+}
+
+footer hr{
+    width: 100%;
+    visibility: hidden;
+}

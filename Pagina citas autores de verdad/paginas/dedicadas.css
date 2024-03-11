@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.centro{
+    display: flex;
+    flex-direction: row;
+}
+
+
+/* .vertical-section {
+    flex: 1;
+    margin: 10px;
+} */
+
+#content{
+    width: 30%;
+    flex: 1;
+    margin: 10px;
+    flex-direction: column;
+    text-align: justify;
+    font-size:15px;
+}
+
+#content #primera::first-letter{
+    font-size: 50px;
+}
+
+#foto{
+    flex-direction: column;
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#foto ul{
+    list-style: none;
+    padding: 0;
+}
+
+#foto small{
+    width: 250px;
+    flex: 1;
+    margin: 10px;
+}
+
+#fotoss{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.fotitos{
+    width: 100px;
+    height: auto;
+}

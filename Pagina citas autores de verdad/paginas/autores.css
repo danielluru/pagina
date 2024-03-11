@@ -1,0 +1,25 @@
+.centro .vertical-section {
+    display: inline-block; /* Para que las secciones estén en línea */
+    margin: 0 10px; /* Espaciado entre las secciones */
+    width: 45%;
+    text-align: center; /* Centra el contenido horizontalmente */
+}
+
+.vertical-section {
+    flex: 1;
+    margin: 10px;
+}
+.vertical-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+.vertical-section h2 {
+    text-align: center;
+}
+.vertical-section li {
+    margin: 5px 0;
+}
+
+.vertical-section a{
+    color: black;
+}
